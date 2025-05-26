@@ -1,4 +1,4 @@
-🎤 LegendsBlog – A Minimal Dark-Themed Blog with Next.js & Tailwind 🎧🌌
+# LegendsBlog – A Minimal Dark-Themed Blog with Next.js & Tailwind 🎧🌌
 
 This is a sleek and minimal blog project built with **Next.js 14**, styled using **TailwindCSS**, and fully equipped with **dark mode** support 🌓.  
 Designed with simplicity in mind and inspired by aesthetic vibes like **Drake** 🦉, **The Weeknd** 🌃, **SZA** 🌸, **Frank Ocean** 🌊, and other moody legends of the night 🎶🌙.
