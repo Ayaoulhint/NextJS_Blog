@@ -30,13 +30,3 @@ No backend, no database—just clean front-end vibes for styling practice and UI
 - **next-themes**
 - **TypeScript**
 
----
-
-🧃 Why?
-Just a fun side project to play with themes, layout, and Tailwind's design system.
-No API, no CMS—just vibes 🌌
-
----
-
-Feel free to fork, customize, or use as a starter for your own themed portfolio/blog!
-
