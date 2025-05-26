@@ -17,7 +17,7 @@ No backend, no database—just clean front-end vibes for styling practice and UI
 
 🎨 Features:
 
-🌑 Dark/light theme toggle (via `next-themes`)  
+🌑 Dark/light theme toggle 
 ✨ TailwindCSS with custom design tokens  
 📱 Responsive layout with centralized content  
 🧠 Organized folder structure (with `/components`, `/app`, etc.)  
@@ -41,5 +41,5 @@ Use it, remix it, or drop your own verses 🎙️💿
 
 ---
 
-🦊 Made with love, CSS, and late-night playlists 🎧🌙
+Made with love, CSS, and late-night playlists 🎧🌙
 
