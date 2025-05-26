@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Next.js, Tailwind CSS, TypeScript & Sanity Blog
 
+Welcome to the repository for the Next.js blog designed and developed by David Fox. This blog showcases a modern web development stack using Next.js, Tailwind CSS, TypeScript, and Sanity CMS. It's built to deliver a powerful and seamless blogging experience, featuring a responsive design and efficient content management.
+
+## Features
+
+- **Modern Stack**: Built using Next.js, Tailwind CSS, TypeScript, and Sanity CMS.
+- **Responsive Design**: The blog is fully responsive, ensuring it works on all devices.
+- **Rich Text Editor**: Integrated with Sanity's Portable Text for rich text editing.
+- **SEO Friendly**: Utilizes Next.js's powerful SEO capabilities.
+- **Light and Dark Mode**: Supported by `next-themes` for user-preferred theme settings.
+
+## Live Demo
+
+Check out the live version of the blog [here](https://newblog-inia.onrender.com/).
+
+## Repository
+
+The code is available on GitHub: [maesterfox/newBlog](https://github.com/maesterfox/newBlog)
+
+## Installation
+
+To get this project running on your local machine, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/maesterfox/newBlog.git
+    cd newBlog
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Set up Sanity**:
+    - Create a Sanity project at [Sanity.io](https://www.sanity.io/)
+    - Configure the schemas as defined in the `schema.ts` file.
+    - Replace the dataset configuration in the Sanity studio with your own.
+
+4. **Configure Environment Variables**:
+    - Create a `.env.local` file in the root directory.
+    - Add the following environment variables:
+        ```plaintext
+        SANITY_PROJECT_ID=your_sanity_project_id
+        SANITY_DATASET=your_dataset_name
+        ```
+
+5. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+    Access the blog at [http://localhost:3000](http://localhost:3000).
+
+## Building and Deployment
+
+To build the project for production, run:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+```
+Followed by:
+```bash
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are always welcome! Please read the contribution guidelines first.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About the Author
 
-## Learn More
+- **David Fox**
+  - **Portfolio**: [davidfoxdev.co.uk](https://www.davidfoxdev.co.uk)
+  - **LinkedIn**: [linkedin.com/in/davidfoxtechcode](https://www.linkedin.com/in/davidfoxtechcode)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to connect with me on LinkedIn or check out my portfolio for more projects and professional information.
